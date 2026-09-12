@@ -1,0 +1,21 @@
+{
+	"name": "LS_SqlServerTable",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "SWAGGY\\SQLEXPRESS",
+			"database": "vbfinalproject",
+			"encrypt": "optional",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "adfadmin",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyMTY0MjRmMi1jYjI0LTRiMGItYWNkYS1mM2M4MjA1NGRkMWQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhostedintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

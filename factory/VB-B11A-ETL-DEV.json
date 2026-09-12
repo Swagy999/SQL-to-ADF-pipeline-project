@@ -1,0 +1,15 @@
+{
+	"name": "VB-B11A-ETL-DEV",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "487f5070-0eeb-4882-aff7-6f1721dee0cc",
+		"tenantId": "772844f3-e15b-4350-bd37-9179967bbab9"
+	}
+}
